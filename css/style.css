@@ -1,0 +1,86 @@
+/* Folha de estilo */
+.carousel-item {
+    height: auto;
+    max-height: 92.5vh;
+    min-height: 92.5vh;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+}
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Seção que somos */
+
+.titulo {
+    font-size: 70px;
+}
+
+.figure-redonda img  {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#quemSomos {
+    height: 100vh;
+    background: #ECECEC;
+}
+
+/* Seção Nosso time */
+
+.perfil .foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ECECEC;
+}
+
+.icone {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background-color: #ECECEC;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+/* Cards */
+
+.max-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+/* Rodapé */
+
+#footer {
+    background-color: #32383d;
+    color: white;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-copy {
+    color: gray;
+}
